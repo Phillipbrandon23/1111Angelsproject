@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.hero-banner {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.collection-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.collection-item {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 30%;
+}
+
+.collection-item img {
+    width: 100%;
+    height: auto;
+}
+
+.collection-item button {
+    background-color: #ffcc00;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
